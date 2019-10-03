@@ -20,5 +20,8 @@
     "hooks": {
       "pre-push": "npm run start"
     }
+  },
+  "devDependencies": {
+    "husky": "^3.0.8"
   }
 }
