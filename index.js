@@ -30,7 +30,9 @@ function parseFile(content) {
 function writeResult(list) {
   const temp = list
     .map((item, index) => {
-      return `${index + 1}. ${item.content}`;
+      let temp = item.content.replace(/:\+1:/g,'👍');
+      temp = temp.replace(/:x:/g,'👎');
+      return `${index + 1}. ${temp}`;
     })
     .join("\n");
   const result = `${year}年共阅读了${list.length}本书\n\n${temp}`;
