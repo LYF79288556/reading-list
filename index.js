@@ -6,7 +6,7 @@ function readFile() {
 }
 function parseOneLine(line) {
   const content = line.text;
-  const [title, author, time] = content.split("，");
+  const [, , time] = content.split("，");
   if (!time || !time.includes(year)) {
     return null;
   }

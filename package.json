@@ -15,13 +15,5 @@
   "homepage": "https://github.com/nusr/reading-list#readme",
   "dependencies": {
     "marked": "^0.7.0"
-  },
-  "husky": {
-    "hooks": {
-      "pre-push": "npm run start"
-    }
-  },
-  "devDependencies": {
-    "husky": "^3.0.8"
   }
 }
