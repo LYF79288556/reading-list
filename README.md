@@ -56,6 +56,7 @@
 
 ## 技术
 
+1. :+1: 剑指offer，[中] 何海涛，2020 年 3 月
 1. HTTP 权威指南，[美] David Gourley，2020 年 2 月
 1. :+1: React.js 小书，[开源书籍](http://huziketang.mangojuice.top/books/react/lesson36)，2019 年 3 月
 1. :+1: 程序员修炼之道，[美] Andrew Hunt / David Thomas，2017 年 12 月
